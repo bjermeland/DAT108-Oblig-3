@@ -1,4 +1,4 @@
-class Dice {
+export default class Dice {
     constructor(value) {
         this.value = value
     }
@@ -11,5 +11,3 @@ class Dice {
         return this.value
     }
 }
-
-export default Dice
